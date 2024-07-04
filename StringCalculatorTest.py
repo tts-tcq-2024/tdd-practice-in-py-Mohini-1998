@@ -5,19 +5,19 @@ class TestStringCalculator(unittest.TestCase):
         def test_expectZeroForEmptyInput(self):
                 self.assertEqual(add(""), 0)
                 
-        #def expectZeroForSingleZero(self):
-          #      self.assertEqual(add("0"), 0)
+        def test_expectZeroForEmptyInput(self):
+                self.assertEqual(add("0"), 0)
                 
-       # def expectSumForTwoNumberst(self):
+       # def test_expectZeroForEmptyInput(self):
              #   self.assertEqual(add("1,2"), 3)
                 
-        #def ignoreNumbersGreaterThan1000(self):
+        #def test_expectZeroForEmptyInput(self):
           #      self.assertEqual(add("1,1001"), 1)
                 
-       # def expectSumWithCustomDelimiter(self):
+       # def test_expectZeroForEmptyInput(self):
           #      self.assertEqual(add("//;\n1;2"), 3)
                 
-        #def expectSumWithNewlineDelimiter(self):
+        #def test_expectZeroForEmptyInput(self):
             #    self.assertEqual(add("1\n2,3"),6);
         
 
