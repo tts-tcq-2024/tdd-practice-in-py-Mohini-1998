@@ -1,2 +1,2 @@
-def add (input):
- return 1
+def add (""):
+ return 0
