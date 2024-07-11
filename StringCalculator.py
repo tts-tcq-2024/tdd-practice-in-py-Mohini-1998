@@ -1,4 +1,6 @@
 def add (input):
- return 0
-def add (1,2):
- return 3 
+ if (input):
+  if input == "0":
+   return 0
+ else:
+   return 0
