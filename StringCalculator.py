@@ -1,5 +1,5 @@
 def add (input):
-  if input == "0" or "":
+  case "0" or "":
    return 0
   #if input == "1,2" or "//;\n1;2":
  #  return 3 
