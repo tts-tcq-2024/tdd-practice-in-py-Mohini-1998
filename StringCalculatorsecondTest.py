@@ -13,7 +13,7 @@ class TestStringCalculator(unittest.TestCase):
           
         def test_expectZeroForEmptyInput(self):
                self.assertEqual(add("10-2+1"), 3)   
-          "10-2+1"
+        
                 
 if __name__ == '__main__':
     unittest.main()
